@@ -16,7 +16,7 @@ char* extractFilename(const char* filename);
 // This function is used to extract a user-provided number from the command line.
 unsigned int extractNumber(const char* argument);
 
-// This is the function that starts it all.
+// This is the function that starts everything.
 int main(int argc, char** argv)
 {
 	// These are function parameters used by all phases of this program. They define shared
